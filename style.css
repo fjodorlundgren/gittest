@@ -1,0 +1,57 @@
+body {
+    background-color: #5555ff;
+    color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    /*same as above*/
+    font: normal Arial, Helvetica, sans-serif;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #000000;
+}
+
+a:active {
+    color: #008000;
+}
+
+a:visited {
+    color: #ffffff;
+}
+
+.container {
+    width: 80%;
+}
+
+.box-1 {
+    background-color: #333;
+    color: #ffffff;
+    border: 5px red solid;
+}
+
+.categories {
+    border: 1px #aaaaaa solid;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 10;
+    list-style: square;
+    list-style: none;
+}
+
+.categories li {
+    padding-bottom: 6px;
+    border-bottom: dotted 1px #333333;
+    list-style-image: url('.../downloads/test.png')
+}
